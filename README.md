@@ -136,19 +136,21 @@ The Catalog Management System is a Spring Boot-based REST API application design
 }
 
 
-#### 6. ** Update Product by Name**
+#### 6. **Update Product by Name**
 - **Endpoint**: `/Product/Api/updateByName`
 - **Method**: `PUT`
-- **Description**:Updates a product by its name.
-- **Request Body**: 
+- **Description**: Updates a product by its name.
+
+- **Request Body**:
   ```json
-{
-  "name": "Updated Product Name",
-  "category": "Updated Category Enum",
-  "brand": "Updated Brand Name",
-  "price": "Updated Product Price",
-  "quantity": "Updated Product Quantity"
-}
+  {
+    "name": "Updated Product Name",
+    "category": "Updated Category Enum",
+    "brand": "Updated Brand Name",
+    "price": "Updated Product Price",
+    "quantity": "Updated Product Quantity"
+  }
+
 - **Response**:
    ```json
 {
@@ -158,12 +160,14 @@ The Catalog Management System is a Spring Boot-based REST API application design
 #### 7. **Delete Product by ID**
 - **Endpoint**: `/Product/Api/{id}`
 - **Method**: `DELETE`
-- **Description**:Deletes a product from the catalog by its ID.
+- **Description**: Deletes a product from the catalog by its ID.
+
 - **Response**:
   ```json
-{
-  "message": "Product deleted successfully"
-}
+  {
+    "message": "Product deleted successfully"
+  }
+
 
 
 
