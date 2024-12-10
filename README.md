@@ -40,6 +40,7 @@ The Catalog Management System is a Spring Boot-based REST API application design
 1. **Java**: Ensure Java 17 or higher is installed.
 2. **Maven**: Install Maven for building the project.
 3. **MySQL**: Set up a MySQL database.
+4. **version**:3.4.0
 
 ### Steps
 1. **Clone the Repository**:
@@ -95,7 +96,87 @@ The Catalog Management System is a Spring Boot-based REST API application design
     "price": "Product Price",
     "quantity": "Product Quantity"
   }
+  ]
+
+#### 4. **Get Products by Category**
+- **Endpoint**: `/Product/Api/getProductByCategory`
+- **Method**: `GET`
+- **Description**:Retrieves products by category.
+- **Response**: 
+  ```json
+  [
+  {
+    "id": "Product ID",
+    "name": "Product Name",
+    "category": "Category Enum",
+    "brand": "Brand Name",
+    "price": "Product Price",
+    "quantity": "Product Quantity"
+  }
 ]
+
+#### 5. ** Update Product by ID**
+- **Endpoint**: `/Product/Api/updateById`
+- **Method**: `PUT`
+- **Description**:Updates a product by its ID.
+- **Request Body**: 
+  ```json
+ {
+  "name": "Updated Product Name",
+  "category": "Updated Category Enum",
+  "brand": "Updated Brand Name",
+  "price": "Updated Product Price",
+  "quantity": "Updated Product Quantity"
+}
+- **Response**:
+   ```json
+ {
+  "message": "Product updated successfully"
+}
+
+#### 6. ** Update Product by Name**
+- **Endpoint**: `/Product/Api/updateByName`
+- **Method**: `PUT`
+- **Description**:Updates a product by its name.
+- **Request Body**: 
+  ```json
+{
+  "name": "Updated Product Name",
+  "category": "Updated Category Enum",
+  "brand": "Updated Brand Name",
+  "price": "Updated Product Price",
+  "quantity": "Updated Product Quantity"
+}
+- **Response**:
+   ```json
+{
+  "message": "Product updated successfully"
+}
+
+#### 7. **Delete Product by ID**
+- **Endpoint**: `/Product/Api/{id}`
+- **Method**: `DELETE`
+- **Description**:Deletes a product from the catalog by its ID.
+- **Response**: 
+  ```json
+{
+  "message": "Product deleted successfully"
+}
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
 
 
 
