@@ -115,19 +115,20 @@ The Catalog Management System is a Spring Boot-based REST API application design
   }
 ]
 
-#### 5. ** Update Product by ID**
+#### 5. **Update Product by ID**
 - **Endpoint**: `/Product/Api/updateById`
 - **Method**: `PUT`
-- **Description**:Updates a product by its ID.
-- **Request Body**: 
+- **Description**: Updates a product by its ID.
+- **Request Body**:
   ```json
- {
-  "name": "Updated Product Name",
-  "category": "Updated Category Enum",
-  "brand": "Updated Brand Name",
-  "price": "Updated Product Price",
-  "quantity": "Updated Product Quantity"
-}
+  {
+    "name": "Updated Product Name",
+    "category": "Updated Category Enum",
+    "brand": "Updated Brand Name",
+    "price": "Updated Product Price",
+    "quantity": "Updated Product Quantity"
+  }
+
 - **Response**:
    ```json
  {
