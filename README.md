@@ -42,9 +42,12 @@ The Catalog Management System is a Spring Boot-based REST API application design
 3. **MySQL**: Set up a MySQL database.
 
 ### Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/QUAYEMX1/CatalogManagementSystem.git
-   cd CatalogManagementSystem
+1.**Clone the Repository**:
+    ```bash
+    git clone: https://github.com/QUAYEMX1/WeatherInfoService.git
+    cd WeatherInformationService
+    ```
+
+---
 
 
