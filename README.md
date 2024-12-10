@@ -130,10 +130,11 @@ The Catalog Management System is a Spring Boot-based REST API application design
   }
 
 - **Response**:
-   ```json
-{
-  "message": "Product updated successfully"
-}
+  ```json
+  {
+    "message": "Product updated successfully"
+  }
+
 
 
 #### 6. **Update Product by Name**
@@ -152,10 +153,10 @@ The Catalog Management System is a Spring Boot-based REST API application design
   }
 
 - **Response**:
-   ```json
-{
-  "message": "Product updated successfully"
-}
+  ```json
+  {
+    "message": "Product updated successfully"
+  }
 
 #### 7. **Delete Product by ID**
 - **Endpoint**: `/Product/Api/{id}`
