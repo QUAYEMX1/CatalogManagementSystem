@@ -157,7 +157,7 @@ The Catalog Management System is a Spring Boot-based REST API application design
 - **Endpoint**: `/Product/Api/{id}`
 - **Method**: `DELETE`
 - **Description**:Deletes a product from the catalog by its ID.
-- **Response**: 
+- **Response**:
   ```json
 {
   "message": "Product deleted successfully"
