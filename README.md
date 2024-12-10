@@ -44,8 +44,8 @@ The Catalog Management System is a Spring Boot-based REST API application design
 ### Steps
 1.**Clone the Repository**:
     ```bash
-    git clone: https://github.com/QUAYEMX1/WeatherInfoService.git
-    cd WeatherInformationService
+    [git clone: https://github.com/QUAYEMX1/WeatherInfoService.git
+    cd WeatherInformationService](https://github.com/QUAYEMX1/CatalogManagementSystem.git)
     ```
 
 ---
