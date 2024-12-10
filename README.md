@@ -77,8 +77,27 @@ The Catalog Management System is a Spring Boot-based REST API application design
   "category": "Category Enum",
   "brand": "Brand Name",
   "price": "Product Price",
-  "quantity": "Product Quantity"
+    "quantity": "Product Quantity"
 }
+
+#### 3. **Get Products by Brand**
+- **Endpoint**: `/Product/Api/getProductByBrand`
+- **Method**: `GET`
+- **Description**:Retrieves products by brand name.
+- **Response**: 
+  ```json
+  [
+  {
+    "id": "Product ID",
+    "name": "Product Name",
+    "category": "Category Enum",
+    "brand": "Brand Name",
+    "price": "Product Price",
+    "quantity": "Product Quantity"
+  }
+]
+
+
 
 
 
