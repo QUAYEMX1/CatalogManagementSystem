@@ -44,6 +44,7 @@ The Catalog Management System is a Spring Boot-based REST API application design
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-repository/catalog-management-system.git](https://github.com/QUAYEMX1/CatalogManagementSystem.git)
-   cd catalog-management-system
+   git clone https://github.com/QUAYEMX1/CatalogManagementSystem.git
+   cd CatalogManagementSystem
+
 
