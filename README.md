@@ -47,8 +47,41 @@ The Catalog Management System is a Spring Boot-based REST API application design
     git clone https://github.com/QUAYEMX1/CatalogManagementSystem.git
     cd CatalogManagementSystem
     ```
-
-
 ---
+### API Endpoints
+
+#### 1. **Add a New Product**
+- **Endpoint**: `/Product/Api/addProduct`
+- **Method**: `POST`
+- **Description**: Adds a new product to the catalog.
+- **Request Body**: 
+  ```json
+  {
+    "name": "Product Name",
+    "category": "Category Enum",
+    "brand": "Brand Name",
+    "price": "Product Price",
+    "quantity": "Product Quantity"
+  }
+
+
+#### 2. **Get Product By Id**
+- **Endpoint**: `/Product/Api/getProduct`
+- **Method**: `GET`
+- **Description**:Retrieves a product by its ID.
+- **Response Body**: 
+  ```json
+  {
+  "id": "Product ID",
+  "name": "Product Name",
+  "category": "Category Enum",
+  "brand": "Brand Name",
+  "price": "Product Price",
+  "quantity": "Product Quantity"
+}
+
+
+
+
 
 
