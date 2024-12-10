@@ -171,7 +171,7 @@ The Catalog Management System is a Spring Boot-based REST API application design
 
 ---
 
-## Conclusion
+## Conclusion/Author
 
 The **Catalog Management System** offers a robust and user-friendly platform to manage product information efficiently. It allows seamless addition, retrieval, updating, and deletion of product details, making it an essential tool for organizing and maintaining a product catalog
 
