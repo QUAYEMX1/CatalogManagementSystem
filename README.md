@@ -10,7 +10,6 @@ The Catalog Management System is a Spring Boot-based REST API application design
 - [Setup Instructions](#setup-instructions)
 - [API Endpoints](#api-endpoints)
 - [Request/Response Examples](#requestresponse-examples)
-- [Dependencies](#dependencies)
 - [Author](#author)
 
 ---
@@ -50,7 +49,7 @@ The Catalog Management System is a Spring Boot-based REST API application design
     ```
 ---
 ### API Endpoints
-
+### Request/Response Examples
 #### 1. **Add a New Product**
 - **Endpoint**: `/Product/Api/addProduct`
 - **Method**: `POST`
