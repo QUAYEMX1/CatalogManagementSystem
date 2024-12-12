@@ -36,7 +36,7 @@ public class Product {
     int quantity;
 
     @Enumerated(value = EnumType.STRING)
-    private Category category;
+    Category category;
 
     Date createdOn;
 

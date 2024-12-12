@@ -106,11 +106,12 @@ public class ProductService {
 
 
     public String updateProductByName(String name, Product product) throws Exception {
-        Product product1 = productRepository.findByName(name);
-        if (product1 == null) {
+        Optional<Product> product2= productRepository.findByName(name);
+        if (product2.isEmpty()) {
             throw new RuntimeException(String.format("Product with name %s is not available", name));
-
         }
+
+        Product product1=product2.get();
 
         logger.info("UpdateProductByName method has been called");
         product1.setBrand(product.getBrand());
@@ -119,12 +120,12 @@ public class ProductService {
         product1.setPrice(product.getPrice());
         product1.setQuantity(product.getQuantity());
         product1.setDescription(product.getDescription());
-        product1.setCreatedOn(product1.getCreatedOn());
-        product1.setUpdatedOn(new Date());
-        productRepository.save(product);
+        product1.setUpdatedOn(new Date()); // Keep createdOn as is
+        productRepository.save(product1);  // Save the updated product
         logger.info("UpdateProductByName method has been ended");
         return "Details updated successfully";
     }
+
 
 
 
